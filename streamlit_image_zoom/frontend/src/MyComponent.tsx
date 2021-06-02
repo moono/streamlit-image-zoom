@@ -46,7 +46,7 @@ class MyComponent extends StreamlitComponentBase<State> {
     // be available to the Python program.
     return (
       <span>
-        Hello, {name}! &nbsp;
+        Yay, {name}! &nbsp;
         <button
           style={style}
           onClick={this.onClicked}
