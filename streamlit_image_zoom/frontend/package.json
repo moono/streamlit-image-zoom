@@ -14,7 +14,8 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "streamlit-component-lib": "^1.2.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "react-zoom-pan-pinch": "^1.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
