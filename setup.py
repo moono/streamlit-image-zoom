@@ -2,13 +2,13 @@ import setuptools
 
 setuptools.setup(
     name="streamlit_image_zoom",
-    version="0.0.2",
+    version="0.0.3",
     author="",
     author_email="",
     description="",
     long_description="",
     long_description_content_type="text/plain",
-    url="",
+    url="https://github.com/moono/streamlit-image-zoom.git",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
