@@ -7,7 +7,7 @@ from PIL import Image
 # from dataclasses import dataclass
 
 
-_RELEASE = False
+_RELEASE = True
 
 if not _RELEASE:
     _st_image_zoom = components.declare_component(
