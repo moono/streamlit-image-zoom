@@ -1,10 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import MyComponent from "./MyComponent"
+import ImageZoom from "./ImageZoom"
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyComponent />
+    <ImageZoom />
   </React.StrictMode>,
   document.getElementById("root")
 )
