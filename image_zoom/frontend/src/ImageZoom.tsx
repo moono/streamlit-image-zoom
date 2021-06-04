@@ -84,8 +84,8 @@ class ImageZoom extends StreamlitComponentBase {
     const imageData = this.props.args["imageData"]
 
     return (
-      // <div className="body">
-        // <div className="container">
+      <div className="body">
+        <div className="container">
             <div className="align-items-center">
               <div className="col-lg-12 order-lg-2 example">
                 <TransformWrapper
@@ -151,7 +151,7 @@ class ImageZoom extends StreamlitComponentBase {
                       <TransformComponent>
                         <img
                           className="zoom"
-                          style={{objectFit: "contain"}}
+                          // style={{objectFit: "contain"}}
                           src={`data:image/png;base64,${imageData}`}
                           alt="example-element"
                         />
@@ -179,8 +179,8 @@ class ImageZoom extends StreamlitComponentBase {
                 </TransformWrapper>
               </div>
             </div>
-          // </div>
-      // </div>
+          </div>
+      </div>
     );
   }
 }
