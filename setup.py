@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="streamlit_image_zoom",
-    version="0.0.5",
+    version="0.0.6",
     author="",
     author_email="",
     description="",
