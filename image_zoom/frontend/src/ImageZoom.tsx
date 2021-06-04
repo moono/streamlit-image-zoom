@@ -86,7 +86,7 @@ class ImageZoom extends StreamlitComponentBase {
     return (
       // <div className="body">
         // <div className="container">
-            <div className="align-items-center">
+            <div className="row align-items-center">
               <div className="col-lg-12 order-lg-2 example">
                 <TransformWrapper
                   options={{

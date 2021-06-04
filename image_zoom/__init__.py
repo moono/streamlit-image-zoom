@@ -61,5 +61,5 @@ if not _RELEASE:
         image = Image.open(image_file)
         image = image.convert('RGB')
         
-        st.image(image, use_column_width=False)
+        st.image(image, use_column_width=True)
         st_image_zoom(image)

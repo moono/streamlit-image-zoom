@@ -9,9 +9,9 @@ body {
 .element {
   width: fit-content;
   background: rgba(100, 100, 100, 0.25);
-  width: 100%;
+  /* width: 100%; */
   max-width: calc(100vw - 60px);
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .element img {
